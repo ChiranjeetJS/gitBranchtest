@@ -12,6 +12,13 @@ public class App
         System.out.println(" Add some more code");
         System.out.println("Some more code added");
         System.out.println("Once more");
+        someRandomMethod();
+        System.out.println("test branch");
+
         
+    }
+
+    public static void someRandomMethod(){
+        System.out.println("Please dont call me!");
     }
 }
